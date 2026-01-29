@@ -1,0 +1,18 @@
+import {validateDueDate, validatePriority, validateTitle} from './validator.js'
+
+ // 1. Add new task
+                    export function addTask(title, priority, dueDate) {
+                      // Validate using imported functions
+                      // If valid, add to tasks array
+                      // Return success/error message
+                    }
+                    
+                    // 2. Get all tasks
+                    export function getAllTasks() {
+                      // Return all tasks
+                    }
+                    
+                    // 3. Mark task as complete
+                    export function completeTask(taskId) {
+                      // Find task and mark as complete
+                    }
